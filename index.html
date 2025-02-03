@@ -3,187 +3,199 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Riget Zoo Adventures</title>
+    <title>Riget Zoo Adventure</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<section title="Navbar">
-    <div class="container">
-        <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
-          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-            <span class="fs-4">Riget Zoo</span>
-          </a>
-    
-          <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">What's Here</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Visit</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Shop</a></li>
-          </ul>
-        </header>
+<section title="NavBar">
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-xl my-1">
+      <a class="navbar-brand" href="">
+        <img src="riget.png" alt="Logo" width="30" class="d-inline-block align-text-top">
+        Riget Zoo Adventures</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          <a class="nav-link"  href="/offer.html">What's On Offer</a>
+          <a class="nav-link" href="#">Book Tickets</a>
+          <a class="nav-link disabled" aria-disabled="true">Membership - Coming Soon</a>
+        </div>
       </div>
+    </div>
+</nav>
+</section>
+
+<section title="hero">
+    <div class="container-xl pt-4">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="leopard.png" class="d-block w-100" alt="Leopard Picture">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 id="hero">Summer 2025 Bookings Available</h2>
+                  <p id="hero-p">Plan your journey into the jungle, Don't Leave <span style="color: lightgreen;">Adventure</span> Waiting!</p>
+                  <button class="btn btn-primary m-4 px-2 btn-lg">Book Tickets Now</button>
+                  <button class="btn btn-outline-secondary px-3 m-4 mx-3 btn-lg ">See More Dates!</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="lion.png" class="d-block w-100" alt="Leopard Picture">
+                <div class="carousel-caption d-none d-md-block">
+                  <h2 id="hero">Last Chance Spring 2025 Bookings</h2>
+                  <p id="hero-p">Get A Last Minute <span style="color: red;">Action</span> Plan Ready!</p>
+                  <button class="btn btn-primary m-4 px-2 btn-lg">Book Tickets Now</button>
+                  <button class="btn btn-outline-secondary px-3 m-4 mx-3 btn-lg ">See More Offers</button>
+                </div>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+</div>
+</section>
+
+<section title="Introduction">
+<div class="container py-5">
+  <div class="text-center">
+  <h2>Welcome To Riget Zoo Adventures!</h2>
+  <h7>Yorkshire's Best Zoo</h7>
+  </div>
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 px-2">
+      <p class="pt-3">Step into the wild world of Riget Zoo Adventures, 
+    where nature comes alive! Designed especially for young explorers, 
+    our guided tours and interactive experiences bring kids up close with 
+    fascinating animals in a fun and educational way.
+      </p>
+    </div>
+    <div class="col-lg-6 col-sm-12 px-2">
+      <p class="pt-3">Explore exotic habitats,
+     meet amazing creatures, and embark on unforgettable journeys through the heart 
+     of the animal kingdom. Whether your child is an aspiring zookeeper or just loves wildlife, 
+     there's always something new to discover. Start your adventure today!
+      </p>
+  </div>
+</div>
 
 </section>
 
-<section title="Hero">
-    <div class="px-4 py-5 my-5 text-center">
-        <img class="d-block mx-auto mb-4" src="LEGO_logo.svg.png" alt="" width="72">
-        <h1 class="display-5 fw-bold text-body-emphasis">Summer 2025 Tickets</h1>
-        <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Now Available For Purchase</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            <button type="button" class="btn btn-primary btn-lg px-4 gap-3">Purchase</button>
-            <button type="button" class="btn btn-outline-secondary btn-lg px-4">Browse Dates</button>
-          </div>
+<section title="featured">
+  <div class="bg-body-tertiary">
+  <div class="container text-center py-5 m-5 ">
+    <h3 class="pb-5">We've Been Featured By - </h3>
+     <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <img src="Itvnews_2006.png" alt="Itv" height="30" class="my-4">
         </div>
-      </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="the-onion.svg" alt="" height="30" class="my-4">
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <img src="BBC_Logo_2021.svg.png" alt="" height="30" class="my-4">
+        </div>
+    </div>
+  </div>
+  </div>
+  </section>
 
+<section title="Info Picture Left">
+  <div class="container pt-5">
+    <div class="row d-flex align-items-center">
+      <div class="col-lg-6 col-sm-12">
+        <h3>Plan Your Visit</h3>
+        <p class="pt-3">Open daily from 9 AM to 6 PM, we offer interactive exhibits, guided tours, and feeding sessions that bring you closer to the animal kingdom. Don’t miss our special animal encounters, where you can get up close with incredible species like giraffes, penguins, or sloths. Enjoy a meal at one of our on-site cafes, featuring kid-friendly and sustainable dining options. Visit our gift shop for unique souvenirs that support wildlife conservation. Whether it’s your first visit or your tenth, there’s always something new to experience.
+        </p>
+      </div>
+      <div class="col-lg-6 col-sm-12 ">
+        <img src="safari.jpg" alt="Safari Image" class="rounded-3">
+    </div>
+  </div>
 </section>
 
-<section title="cards">
-    <div class="container px-4 py-5" id="custom-cards">
-        <h2 class="pb-2 border-bottom">What's On Offer</h2>
-    
-        <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-1.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Red Panda Show</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>Left Wing</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>In 3 Days</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-2.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Giraffe Feeding</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>Central Pen</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>Every Day</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-    
-          <div class="col">
-            <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('unsplash-photo-3.jpg');">
-              <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Flying Fish Enclosure</h3>
-                <ul class="d-flex list-unstyled mt-auto">
-                  <li class="me-auto">
-                    <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                  </li>
-                  <li class="d-flex align-items-center me-3">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                    <small>Right Wing</small>
-                  </li>
-                  <li class="d-flex align-items-center">
-                    <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                    <small>Only on Full Moons</small>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
 
+<section title="Info Picture Right">
+  <div class="container pt-5">
+    <div class="row d-flex align-items-center">
+      <div class="col-lg-6 col-sm-12 ">
+        <img src="redpanda.jpg" alt="Safari Image" class="rounded-3" height="408">
+    </div>
+    <div class="col-lg-6 col-sm-12">
+      <h3>Conservation & Education</h3>
+      <p class="pt-3">We’re dedicated to wildlife conservation and education, partnering with global initiatives to protect endangered species and their habitats. Through our breeding programs and research efforts, we help ensure a future for vulnerable animals. Our educational programs, including school visits, summer camps, and hands-on workshops, inspire the next generation of conservationists. Learn how everyday choices, from reducing plastic waste to supporting ethical tourism, can have a lasting impact on the planet. Together, we can make a difference for wildlife and future generations.
+      </p>
+    </div>
+  </div>
 </section>
 
-<section title="carousel">
-
-    <div class="container marketing">
-
-        <!-- Three columns of text below the carousel -->
-        <div class="row">
-          <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 class="fw-normal">David Cooper</h2>
-            <p>David is our lead Flying Fish Expert</p>
-            <p><a class="btn btn-secondary" href="#">See More »</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 class="fw-normal">Michael Corker</h2>
-            <p>Usually a hedgehog expert, Michael now works with Red Pandas</p>
-            <p><a class="btn btn-secondary" href="#">View Profile »</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect></svg>
-            <h2 class="fw-normal">Lucas Nunney</h2>
-            <p>Lucas Nunney is a scary bloke we just hire him to be safe</p>
-            <p><a class="btn btn-outline-secondary" href="#">Under Construction »</a></p>
-          </div><!-- /.col-lg-4 -->
-        </div><!-- /.row -->
-    
-    
-        <!-- START THE FEATURETTES -->
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">Central Pens<span class="text-body-secondary"> Straight infront of the door</span></h2>
-            <p class="lead">I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out</p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">More pens then a pen shop <span class="text-body-secondary"> See for yourself.</span></h2>
-            <p class="lead">I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <div class="row featurette">
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">More pens <span class="text-body-secondary"> WEEEEEE</span></h2>
-            <p class="lead">I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out I'm sick of writing boring filler text that should pad this out </p>
-          </div>
-          <div class="col-md-5">
-            <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="var(--bs-secondary-bg)"></rect><text x="50%" y="50%" fill="var(--bs-secondary-color)" dy=".3em">500x500</text></svg>
-          </div>
-        </div>
-    
-        <hr class="featurette-divider">
-    
-        <!-- /END THE FEATURETTES -->
-    
+<section title="Info Picture Left">
+  <div class="container pt-5">
+    <div class="row d-flex align-items-center justify-content-center ">
+      <div class="col-lg-6 col-sm-12">
+        <h3>Tickets & Membership</h3>
+        <p class="pt-3">Get your tickets online or at the gate, with flexible pricing options for individuals, families, and groups. Become a member for unlimited visits year-round, exclusive events, and behind-the-scenes access to our animals and their keepers. Membership also includes discounts on food, merchandise, and special experiences like zookeeper chats and VIP tours. Planning a special occasion? We offer birthday party packages and private event spaces to make any celebration truly wild. Supporting the zoo through membership helps fund our conservation efforts and animal care programs. </p>
       </div>
+      <div class="col-lg-6 col-sm-12 ">
+        <img src="rhino.jpg" alt="Safari Image" class="rounded-3" height="408">
+    </div>
+  </div>
+</section>
 
+<section title="CTA Secondary">
+<div class="bg-body-tertiary m-5">
+  <div class="container py-4">
+    <div class="row text-center">
+      <h3>Special Offer Sale Now Available - <a href="##">Here</a></h3>
+    </div>
+  </div>
+</div>
+</section>
 
+<section title="Titled Centered Info">
+  <div class="container py-5">
+    <div class="text-center">
+    <h2>You aren't Convinced yet?</h2>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-sm-12 px-2">
+        <p class="pt-3">We get it—you’re skeptical. Maybe you’ve been to zoos that felt more like prisons than sanctuaries. 
+          Maybe you think animals belong in the wild, not behind glass. Or maybe you just don’t see why a trip to the zoo 
+          should be on your list. But here’s the thing: our zoo isn’t just about putting animals on display. It’s about 
+          conservation, education, and creating real connections between people and the natural world. When you walk 
+          through our gates, you’re stepping into something much bigger than just a day out.
+        </p>
+      </div>
+      <div class="col-lg-6 col-sm-12 px-2">
+        <p class="pt-3">Our exhibits are designed with the animals’ well-being as the top priority, giving them the space, enrichment, and care they need to thrive. Every ticket you 
+          buy helps fund conservation programs that protect wildlife both here and in their natural habitats. Whether you’re 
+          here to see majestic predators up close, watch playful primates swing through the trees, or experience hands-on 
+          encounters with some of the world’s most fascinating species, there’s something here that will surprise you. 
+          More than that, you’ll leave with a deeper appreciation for the creatures we share this planet with.
+        </p>
+    </div>
+  </div>
+  
+  </section>
+
+<section title="Footer">
+<div class="text-center pb-3 bg-body-tertiary">
+  <hr>
+  <h7>Made My Humans, In collaboration with Koded Web</h7>
+</div>
 </section>
 
 
